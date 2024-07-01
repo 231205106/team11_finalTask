@@ -28,7 +28,7 @@
     padding-top: 40px;
     padding-bottom: 10px;
     overflow: auto; /* スクロール可能にする */
-    max-height: 400px; /* 高さの制限を設定（適宜調整してください） */
+    max-height: 800px; /* 高さの制限を設定（適宜調整してください） */
 }
 
 .member-list ul {
@@ -45,16 +45,29 @@
     display: flex;
     justify-content: space-around; /* スペースを均等に配置 */
     margin-top: 30px; /* スタッフリストと出演者リストの間隔 */
+    margin-bottom: 30px;
 }
 .staff-list li{
     font-size: 0.85em;
     list-style-type:none ;
 }
 .staff-list p{
-    font-size: 0.7em ;/*スタッフの名前の大きさを出演者の半分に変更*/
+    font-size: 0.4em ;/*スタッフの名前の大きさを出演者の半分に変更*/
 }
 .staff-list .column {
     flex: 1; /* カラムを均等に広げる */
     padding: 0 10px; /* カラム内の間隔 */
     text-align: center; /* 中央揃えにする */
+}
+.comment {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.comment li{
+    list-style-type: none; 
+}
+.comment p{
+    font-size:0.7em;
+    text-align: left;
 }
