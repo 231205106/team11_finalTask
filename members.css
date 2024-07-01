@@ -60,14 +60,20 @@
     text-align: center; /* 中央揃えにする */
 }
 .comment {
-    display:flex;
-    justify-content: space-around;
+    text-align: center; /* キャストの名前を中央揃え */
     margin-top: 30px;
 }
-.comment li{
-    list-style-type: none; 
+
+.comment li {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.comment p{
-    font-size:0.7em;
-    text-align: left;
+
+.comment p {
+    text-align: left; /* コメントを左揃え */
+    margin: 0 auto;
+    max-width: 600px; /* コメントの幅を制限 */
+    font-size: 0.7em;
+    font-family: sans-serif;
 }
