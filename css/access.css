@@ -4,13 +4,13 @@
 .information h2{
   font-size: 100px;
   color: #FF0000;
-  text-align: center; /* 修正箇所 */
+  text-align: center;
   font-family: "PT Serif", serif;
-  display: flex; /* 新規追加 */
-  justify-content: center; /* 新規追加 */
-  align-items: center; /* 新規追加 */
-  height: 100%; /* 新規追加 */
-  margin: 0; /* 新規追加 */
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100%; 
+  margin: 0; 
 }
 .first-view{
     height: calc(100vh - 110px);
