@@ -96,10 +96,4 @@
     font-size: 0.7em;
     font-family: sans-serif;
 }
-@media (max-width: 800px) {
-    .members h2{
-        font-size: 22px;
-        font-weight: bold;
-        margin-top: 130px;
-    }
-}
+
