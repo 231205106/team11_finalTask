@@ -17,7 +17,7 @@
 }
 .first-view{
     height: calc(100vh - 110px);
-    background-image: url('/images/concept/zombie_2.png'); /* パスを絶対パスに変更 */
+    background-image: url('../../images/concept/zombie_2.png'); /* パスを絶対パスに変更 */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
