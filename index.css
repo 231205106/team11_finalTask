@@ -158,7 +158,7 @@ img {
     .first-view-text{
         width: 100%;
         max-width: 1200px;
-        transform: rotate(-12deg);
+        transform: rotate(0deg);
         margin-left: auto;
         margin-right: auto;
         padding-left: 40px;
