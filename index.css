@@ -171,7 +171,7 @@ img {
     .first-view-text h1{
         font-family: 'Sawarabi Mincho',暗黒ゾン字;
         font-size: 100px;
-        line-height: 100px;
+        line-height: 90px;
     }
 
     .header-site-menu.is-show{
@@ -220,6 +220,11 @@ img {
         outline: none;
     }
     
+    .buruburu-hover {
+        display: inline-block;
+        animation: hurueru .1s  infinite;
+    }
+
 }
 
 .footer {
@@ -232,10 +237,27 @@ img {
     align-items: center;
 }
 
+
+
 .footer-logo {
     display: block;
-    width: 235px;
+    width: 330px;
     margin-top: 90px;
+}
+
+
+
+.buruburu-hover:hover {
+    display: inline-block;
+    animation: hurueru .1s  infinite;
+}
+
+@keyframes hurueru {
+    0% {transform: translate(0px, 0px) rotateZ(0deg)}
+    25% {transform: translate(5px, 5px) rotateZ(1deg)}
+    50% {transform: translate(0px, 5px) rotateZ(0deg)}
+    75% {transform: translate(5px, 0px) rotateZ(-1deg)}
+    100% {transform: translate(0px, 0px) rotateZ(0deg)}
 }
 
 .copyright {
