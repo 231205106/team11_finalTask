@@ -40,28 +40,18 @@ nav.floating{
     margin-top: 20px;
 }
 
-.second-view-text{
-    width: 100%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 40px;
-    padding-bottom: 80px;
-    color: #650019;
-    font-weight: bold;
-    text-shadow: 1px 1px 10px #ea0e33;
-}
-
 .lead{
     max-width: 1200px;
     margin: 60px auto;
 }
+
 *,
 ::before,
 ::after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 ul, ol {
@@ -154,26 +144,7 @@ img {
         height: 100%;
         position: relative;
     }
-
-    .first-view-text{
-        width: 100%;
-        max-width: 1200px;
-        transform: rotate(0deg);
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 40px;
-        padding-bottom: 30%;
-        color: #a31e1e;
-        font-weight: bold;
-        text-shadow: 1px 1px 10px #ea0e33;
-    }
-
-    .first-view-text h1{
-        font-family: 'Sawarabi Mincho',暗黒ゾン字;
-        font-size: 110px;
-        line-height: 90px;
-    }
-
+    
     .header-site-menu.is-show{
         display: block;
     }
@@ -194,8 +165,28 @@ img {
         display: none;
     }
 
+    .first-view-text{
+        width: 100%;
+        max-width: 1200px;
+        transform: rotate(0deg);
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 40px;
+        padding-bottom: 30%;
+        color: #a31e1e;
+        font-weight: bold;
+        text-shadow: 1px 1px 10px #ea0e33;
+    }
+
+    .first-view-text h1{
+        font-family: 'Sawarabi Mincho',暗黒ゾン字;
+        font-size: 110px;
+        line-height: 100px;
+    }
+
     .main{
         padding-top: 50px;
+        
     }
 
     .footer-logo{
