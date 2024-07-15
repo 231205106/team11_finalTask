@@ -96,4 +96,6 @@
     font-size: 0.7em;
     font-family: sans-serif;
 }
-
+@media (max-width:800px){
+    .headear-site-menu{
+        display:block;
